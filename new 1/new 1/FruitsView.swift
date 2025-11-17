@@ -55,7 +55,7 @@ struct FruitsView: View {
             .padding()
         }
         .background(Color.appBackground)
-        .navigationTitle("Fruits")
+        .navigationTitle("hello")
         .sheet(isPresented: $showQuantitySheet) {
             QuantitySheet(
                 fruitName: selectedFruit ?? "",
